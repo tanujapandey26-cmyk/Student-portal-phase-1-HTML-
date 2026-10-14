@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+
+<body>
+
+<header>
+
+    <h1>Feedback Form</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="grade.html">Grade</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<hr>
+
+<main>
+
+    <h2>Share Your Feedback</h2>
+
+    <p>
+        We value your feedback and would love to hear from you.
+    </p>
+
+    <form action="#" method="post">
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"
+               pattern="[0-9]{10}" required>
+        <br><br>
+
+
+            <legend>Gender</legend>
+
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+
+
+        <br>
+        <br><br>
+
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback"
+                  rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <label for="rating">Rating:</label><br>
+        <input type="number" id="rating" name="rating"
+               min="1" max="5" required>
+        <br><br>
+
+        <label for="course">Course:</label><br>
+        <select id="course" name="course" required>
+            <option value="">Select a course</option>
+            <option value="bca">BCA</option>
+            <option value="bsc">BSC</option>
+            <option value="ba">BA</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+        <label for="newsletter">Subscribe to our newsletter</label>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</main>
+
+<hr>
+
+<footer>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="grade.html">Grade</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <p>© 2026 Student Profile & Course Portal. All rights reserved.</p>
+
+</footer>
+
+</body>
+
+</html>
